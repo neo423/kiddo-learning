@@ -1,0 +1,24 @@
+{
+  "name": "kiddo-learning",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:home": "node scripts/test-home-learning-items.mjs",
+    "test:number-trace": "node scripts/test-number-trace-paths.mjs"
+  },
+  "dependencies": {
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "tailwindcss": "3.4.17",
+    "postcss": "latest",
+    "autoprefixer": "latest"
+  }
+}

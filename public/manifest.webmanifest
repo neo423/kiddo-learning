@@ -1,0 +1,10 @@
+{
+  "name": "彩虹探索樂園",
+  "short_name": "彩虹樂園",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#79d9f6",
+  "theme_color": "#39bdf0"
+}

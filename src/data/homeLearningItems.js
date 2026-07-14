@@ -1,0 +1,42 @@
+export const HOME_LEARNING_ITEMS = [
+  {
+    id: 'zhuyin',
+    label: '注音學習',
+    assetUrl: new URL('../assets/images/home/card-zhuyin.webp', import.meta.url),
+    target: 'zhuyin',
+    enabled: true,
+    status: '',
+  },
+  {
+    id: 'number',
+    label: '數字學習',
+    assetUrl: new URL('../assets/images/home/card-number.webp', import.meta.url),
+    target: 'number',
+    enabled: true,
+    status: '',
+  },
+  {
+    id: 'english',
+    label: '英文學習',
+    assetUrl: new URL('../assets/images/home/card-english.webp', import.meta.url),
+    target: null,
+    enabled: false,
+    status: '即將開放',
+  },
+  {
+    id: 'shape',
+    label: '形狀配對',
+    assetUrl: new URL('../assets/images/home/card-shape.webp', import.meta.url),
+    target: null,
+    enabled: false,
+    status: '即將開放',
+  },
+  {
+    id: 'logic',
+    label: '邏輯思考',
+    assetUrl: new URL('../assets/images/home/card-logic.webp', import.meta.url),
+    target: null,
+    enabled: false,
+    status: '即將開放',
+  },
+]
