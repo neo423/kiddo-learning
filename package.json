@@ -8,7 +8,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "test:home": "node scripts/test-home-learning-items.mjs",
-    "test:number-trace": "node scripts/test-number-trace-paths.mjs"
+    "test:number-trace": "node scripts/test-number-trace-paths.mjs",
+    "test:deploy": "npm run build && node scripts/test-deployment-base.mjs"
   },
   "dependencies": {
     "react": "latest",
